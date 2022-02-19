@@ -9,12 +9,13 @@
 #
 #   If you aren't sure, uncoment a line below (by deleting the preceding #):
 #
-#import decimal
-#import math
-#import itertools
-#import array
-#import bisect
-#import unittest
+import decimal
+import math
+import itertools
+import array
+import bisect
+import unittest
+import pandas
 #import sqlite3
 #
 ###############################################################################
@@ -27,6 +28,7 @@ def main():
     #
     ###########################################################################
     print("John DiMatteo likes datetime:", datetime.__doc__)
+    print("hahhaha",datetime.date)
 
 
 if __name__ == "__main__":
